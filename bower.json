@@ -1,0 +1,17 @@
+{
+  "name": "july",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Koji Nakagawa <koji.nakagawa88@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
