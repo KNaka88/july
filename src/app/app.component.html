@@ -1,29 +1,26 @@
-<div mdl class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <span class="mdl-layout-title">Title</span>
-                <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>
-                <!-- Navigation -->
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-            </nav>
+<div class="pos-f-t">
+  <nav class="navbar navbar-inverse bg-inverse">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-inverse p-4">
+            <h4 class="text-white">Collapsed content</h4>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
         </div>
-    </header>
-    <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
-        <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-        </nav>
     </div>
-    <main class="mdl-layout__content">
-    </main>
+  </nav>
 </div>
+
+Helo
+<video id="my-video" class="video" loop="loop" muted="" width="300" height="150">
+  <source src="{{mainVideo}}" type="video/mp4"/>
+</video>
+<!-- /video -->
+
 <router-outlet></router-outlet>
+<footer class="footer navbar-default navbar-fixed-bottom">
+    <div class="container-fluid copy-right text-center">
+        <span>© {{ today | date:"y" }} Hiromi Jokura</span>
+    </div>
+</footer>
