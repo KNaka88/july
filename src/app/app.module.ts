@@ -11,7 +11,7 @@ import { MdlUppgradeElementDirective } from './mdl-uppgrade-element.directive';
   declarations: [
     AppComponent,
     IndexComponent,
-    MdlUppgradeElementDirective
+    MdlUppgradeElementDirective,
   ],
   imports: [
     BrowserModule,

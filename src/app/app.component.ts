@@ -8,24 +8,12 @@ import { MdlUppgradeElementDirective } from './mdl-uppgrade-element.directive';
 })
 export class AppComponent implements OnInit {
     private today: number;
-    private mainVideo: string = "../../assets/video/demo.mp4";
 
-    constructor(private elementRef: ElementRef) {}
+    constructor() {}
 
     ngOnInit() {
         // Set currrent date
         this.today = Date.now();
-
-        // Autoplay Video
-        this.startVideo();
-    }
-
-
-    startVideo() {
-        let video = this.elementRef.nativeElement.querySelector('video');
-        video.addEventListener( "canplay", () => {
-            video.play();
-        });
     }
 
 }
